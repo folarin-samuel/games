@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: blue;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.form {
+  background: royalblue;
+  width: 400px;
+  height: 100%;
+}
+
+.display {
+  width: 70%;
+  text-align: right;
+  font-size: 80px;
+  padding-right: 5px;
+  color: skyblue;
+  background: dodgerblue;
+  height: 100px;
+  float: right;
+  position: absolute;
+}
+.button {
+  width: calc(100% / 5);
+  height: 70px;
+  font-size: 50px;
+  text-align: center;
+}
+.eval {
+  width: 100%;
+  font-size: 50px;
+  height: 100px;
+}
+.eval, .button {
+  background: dodgerblue;
+  color: blue;
+}
+.display, .eval , .button {
+  font-weight: 1000;
+  margin: 2px 2px;
+  border: 6px inset blue;
+}
+.button:hover, .eval:hover {
+  background: blueviolet;
+}
